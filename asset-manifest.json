@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/samkun5570/reactRecipie/static/css/main.2de8e57f.chunk.css",
-    "main.js": "/samkun5570/reactRecipie/static/js/main.e58f348b.chunk.js",
-    "main.js.map": "/samkun5570/reactRecipie/static/js/main.e58f348b.chunk.js.map",
-    "runtime-main.js": "/samkun5570/reactRecipie/static/js/runtime-main.2cf14e32.js",
-    "runtime-main.js.map": "/samkun5570/reactRecipie/static/js/runtime-main.2cf14e32.js.map",
-    "static/js/2.736b337d.chunk.js": "/samkun5570/reactRecipie/static/js/2.736b337d.chunk.js",
-    "static/js/2.736b337d.chunk.js.map": "/samkun5570/reactRecipie/static/js/2.736b337d.chunk.js.map",
-    "index.html": "/samkun5570/reactRecipie/index.html",
-    "precache-manifest.903713f61fd608040d7f2ce95d3f8dc6.js": "/samkun5570/reactRecipie/precache-manifest.903713f61fd608040d7f2ce95d3f8dc6.js",
-    "service-worker.js": "/samkun5570/reactRecipie/service-worker.js",
-    "static/css/main.2de8e57f.chunk.css.map": "/samkun5570/reactRecipie/static/css/main.2de8e57f.chunk.css.map",
-    "static/js/2.736b337d.chunk.js.LICENSE.txt": "/samkun5570/reactRecipie/static/js/2.736b337d.chunk.js.LICENSE.txt"
+    "main.css": "/reactRecipie/static/css/main.2de8e57f.chunk.css",
+    "main.js": "/reactRecipie/static/js/main.3da6dd29.chunk.js",
+    "main.js.map": "/reactRecipie/static/js/main.3da6dd29.chunk.js.map",
+    "runtime-main.js": "/reactRecipie/static/js/runtime-main.8b989185.js",
+    "runtime-main.js.map": "/reactRecipie/static/js/runtime-main.8b989185.js.map",
+    "static/js/2.736b337d.chunk.js": "/reactRecipie/static/js/2.736b337d.chunk.js",
+    "static/js/2.736b337d.chunk.js.map": "/reactRecipie/static/js/2.736b337d.chunk.js.map",
+    "index.html": "/reactRecipie/index.html",
+    "precache-manifest.e2ed5560013b3f363c6cd0a40160a4dd.js": "/reactRecipie/precache-manifest.e2ed5560013b3f363c6cd0a40160a4dd.js",
+    "service-worker.js": "/reactRecipie/service-worker.js",
+    "static/css/main.2de8e57f.chunk.css.map": "/reactRecipie/static/css/main.2de8e57f.chunk.css.map",
+    "static/js/2.736b337d.chunk.js.LICENSE.txt": "/reactRecipie/static/js/2.736b337d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2cf14e32.js",
+    "static/js/runtime-main.8b989185.js",
     "static/js/2.736b337d.chunk.js",
     "static/css/main.2de8e57f.chunk.css",
-    "static/js/main.e58f348b.chunk.js"
+    "static/js/main.3da6dd29.chunk.js"
   ]
 }
