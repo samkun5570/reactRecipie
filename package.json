@@ -1,7 +1,7 @@
 {
   "name": "react_js_recepie",
   "version": "0.1.0",
-  "homepage": "https://github.com/samkun5570/reactRecipie",
+  "homepage": "https://samkun5570.github.io/reactRecipie",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
