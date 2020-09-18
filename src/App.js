@@ -11,13 +11,13 @@ const App = () => {
   const [query, setQuery] = useState("chicken");
 
   useEffect(() => {
-    // console.log('zscfzd');
+    console.log(query);
     getRecipie();
   }, [query]);
 
   const id = 'da4035b1';
   const key = 'e220d30109d1dd3fe4481a865697221d	';
-  const ex_request = `https://api.edamam.com/search?q=${search}&app_id=${id}&app_key=${key}`;
+  const ex_request = `https://api.edamam.com/search?q=${query}&app_id=${id}&app_key=${key}`;
 
 
   const getRecipie = async () => {
@@ -27,11 +27,11 @@ const App = () => {
     console.log(recipieData);
   };
 
-  const updateSearch = (e) =>{
-      setSearch(e.target.value)
+  const updateSearch = (e) => {
+    setSearch(e.target.value)
   };
 
-  const getSearch = (e) =>{
+  const getSearch = (e) => {
     e.preventDefault();
     setQuery(search);
     setSearch("");
@@ -59,19 +59,19 @@ const App = () => {
           Search
         </button>
       </form>
-      <div className="content"> 
-      {
-        recepies.map(recepie => (
-          <Recepies
-            key={recepie.recipe.label}
-            title={recepie.recipe.label}
-            calories={recepie.recipe.calories}
-            img={recepie.recipe.image}
-            ingredients={recepie.recipe.ingredients}
-          />
-        )
-        )}
-        </div>
+      <div className="content">
+        {
+          recepies.map(recepie => (
+            <Recepies
+              key={recepie.recipe.label}
+              title={recepie.recipe.label}
+              calories={recepie.recipe.calories}
+              img={recepie.recipe.image}
+              ingredients={recepie.recipe.ingredients}
+            />
+          )
+          )}
+      </div>
     </div>
   );
 }

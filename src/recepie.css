@@ -1,8 +1,13 @@
 .recepie{
-    border-radius: 5px;
-    box-shadow: 0px 5px 10px rgba(rgb(243, 237, 237), rgb(246, 250, 246), rgb(245, 245, 248), alpha);
+    border-radius: 10px;
+    border-color: rgb(156, 165, 165);
+    background-color: rgb(96, 128, 128);
+    box-shadow: 0px 0px 4px 4px whitesmoke;
     padding: 10px;
+    border-spacing: 10px;
     display: flex;
+    margin: 10px;
+    padding: 10px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
