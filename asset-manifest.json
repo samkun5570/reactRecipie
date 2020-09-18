@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/samkun5570/reactRecipie/static/css/main.395aaa17.chunk.css",
+    "main.js": "/samkun5570/reactRecipie/static/js/main.3be64b93.chunk.js",
+    "main.js.map": "/samkun5570/reactRecipie/static/js/main.3be64b93.chunk.js.map",
+    "runtime-main.js": "/samkun5570/reactRecipie/static/js/runtime-main.2cf14e32.js",
+    "runtime-main.js.map": "/samkun5570/reactRecipie/static/js/runtime-main.2cf14e32.js.map",
+    "static/js/2.1ab8b3e1.chunk.js": "/samkun5570/reactRecipie/static/js/2.1ab8b3e1.chunk.js",
+    "static/js/2.1ab8b3e1.chunk.js.map": "/samkun5570/reactRecipie/static/js/2.1ab8b3e1.chunk.js.map",
+    "index.html": "/samkun5570/reactRecipie/index.html",
+    "precache-manifest.f15cacc6f5a0a91b803f17cc90dda125.js": "/samkun5570/reactRecipie/precache-manifest.f15cacc6f5a0a91b803f17cc90dda125.js",
+    "service-worker.js": "/samkun5570/reactRecipie/service-worker.js",
+    "static/css/main.395aaa17.chunk.css.map": "/samkun5570/reactRecipie/static/css/main.395aaa17.chunk.css.map",
+    "static/js/2.1ab8b3e1.chunk.js.LICENSE.txt": "/samkun5570/reactRecipie/static/js/2.1ab8b3e1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2cf14e32.js",
+    "static/js/2.1ab8b3e1.chunk.js",
+    "static/css/main.395aaa17.chunk.css",
+    "static/js/main.3be64b93.chunk.js"
+  ]
+}
