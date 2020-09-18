@@ -1,0 +1,9 @@
+.recepie{
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(rgb(243, 237, 237), rgb(246, 250, 246), rgb(245, 245, 248), alpha);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
