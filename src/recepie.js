@@ -3,18 +3,20 @@ import React from 'react';
 import './recepie.css'
 const recepie = ({title,calories,img,ingredients}) =>{
     return(
-        <div className="recepie">
-            <h1>{title}</h1>
-            <img src = {img} alt = "image of recepi" className="img"></img>
-            <p>Calories : {calories}</p>
-            <ol>
+        <article className="recepie">
+            <header className="card-header">{title}</header>
+            <img src = {img} alt=" " className="img"></img>
+            <p>Calories : {calories.toFixed(0)}</p>
+            <ol className="ingrediants">
                 {
                     ingredients.map(items=>(
-                        <li>{items.text}</li>
+                        <li>
+                        {items.text}
+                        </li>
                     )
                 )}
             </ol>
-        </div>
+        </article>
     )
 };
 export default recepie;

@@ -59,7 +59,7 @@ const App = () => {
           Search
         </button>
       </form>
-      <div className="content">
+      <section className="content">
         {
           recepies.map(recepie => (
             <Recepies
@@ -71,7 +71,7 @@ const App = () => {
             />
           )
           )}
-      </div>
+      </section>
     </div>
   );
 }

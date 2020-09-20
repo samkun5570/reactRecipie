@@ -1,14 +1,67 @@
-.recepie{
-    border-radius: 10px;
-    border-color: rgb(156, 165, 165);
-    background-color: rgb(96, 128, 128);
-    box-shadow: 0px 0px 4px 4px whitesmoke;
-    padding: 10px;
-    border-spacing: 10px;
+.recepie{ 
     display: flex;
-    margin: 10px;
-    padding: 10px;
+    position: relative;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+    height: auto;
+    width: auto;
+    margin: .5rem;
+    min-width: auto;
+    /* margin: 1rem; */
+    padding: .5rem;
+    border-radius: 10px;
+    /* border-color: rgb(156, 165, 165); */
+    background-color: rgb(96, 128, 128);
+    box-shadow: -1rem 0 3rem #000;
+    transition: .1s;
+    /* border-spacing: 10px; */
+    
+}
+
+.card-header{
+    font-size: larger;
+    font-family: cursive;
+    font-weight: 600;
+    margin: 1rem;
+    transition: .3s;
+}
+.card-header:hover{
+    color: black;
+    text-shadow: 2px 2px 5px orangered;
+    /* background: linear-gradient(90deg,#ff8a00,#e52ee5);
+    text-shadow: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent; */
+}
+
+.img{
+    /* max-width: 200px;
+    min-width: 50px;
+    max-height: 350px;
+    min-height: 100px; */
+    display: block;
+    width: 200px;
+    height: 200px;
+    transition: .2s;
+    border-radius: 25%;
+}
+.img :hover{
+   transform: translateX(2rem);
+   transform:translateY(2rem);
+}
+.ingrediants{
+    display: inline;
+    text-align: start;
+}
+
+.recepie:hover{
+    transform: translateY(-1rem);
+}
+.recepie:hover~.recepie{
+    transform: translateX(130px);
+}
+.recepie:not(:first-child){
+    margin-left:-130px;
 }
