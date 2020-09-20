@@ -5,7 +5,7 @@ const recepie = ({title,calories,img,ingredients}) =>{
     return(
         <article className="recepie">
             <header className="card-header">{title}</header>
-            <img src = {img} alt=" " className="img"></img>
+            <img src = {img} alt=" " className="imgClass"></img>
             <p>Calories : {calories.toFixed(0)}</p>
             <ol className="ingrediants">
                 {

@@ -23,11 +23,12 @@
     font-size: larger;
     font-family: cursive;
     font-weight: 600;
-    margin: 1rem;
+    margin: .5rem;
     transition: .3s;
 }
 .card-header:hover{
     color: black;
+    transform: scale(1.1);
     text-shadow: 2px 2px 5px orangered;
     /* background: linear-gradient(90deg,#ff8a00,#e52ee5);
     text-shadow: none;
@@ -36,24 +37,25 @@
     -webkit-text-fill-color:transparent; */
 }
 
-.img{
-    /* max-width: 200px;
-    min-width: 50px;
-    max-height: 350px;
-    min-height: 100px; */
+.imgClass{
+    max-width: 200px;
+    min-width: 100px;
+    max-height: 200px;
+    min-height: 100px;
     display: block;
-    width: 200px;
-    height: 200px;
+    /* width: 150px;
+    height: 150px; */
     transition: .2s;
     border-radius: 25%;
 }
-.img :hover{
-   transform: translateX(2rem);
-   transform:translateY(2rem);
+.imgClass:hover{
+   transform: scale(1.05);
+   box-shadow: 2px 2px 4px black;
+ 
 }
 .ingrediants{
     display: inline;
-    text-align: start;
+    text-align:start;
 }
 
 .recepie:hover{
