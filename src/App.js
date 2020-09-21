@@ -8,7 +8,7 @@ const App = () => {
 
   const [search, setSearch] = useState("");
   const [recepies, setRecepie] = useState([]);
-  const [query, setQuery] = useState("chicken");
+  const [query, setQuery] = useState("");
 
   useEffect(() => {
     console.log(query);
@@ -52,8 +52,21 @@ const App = () => {
         >
           Learn React
         </a>
-      </header> */}
-      <form className="searchform" onSubmit={getSearch}>
+      </header>  */}
+     
+
+      <div className="container">
+Foodinator
+  <div className="flip">
+    <div><div>dinner</div></div>
+    <div><div>lunch</div></div>
+    <div><div>breakfast</div></div>
+  </div>
+</div>
+
+    
+      
+<form className="searchform" onSubmit={getSearch}>
         <input className="search" type="text" value={search} onChange={updateSearch}></input>
         <button className="searchSubmit" type="submit">
           Search
