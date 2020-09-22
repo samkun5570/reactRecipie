@@ -10,7 +10,8 @@ const recepie = ({title,calories,img,ingredients}) =>{
             <ol className="ingrediants">
                 {
                     ingredients.map(items=>(
-                        <li>
+                        
+                        <li key={items.className}>
                         {items.text}
                         </li>
                     )

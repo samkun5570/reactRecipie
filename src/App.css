@@ -116,6 +116,10 @@
 .flip {
   height:50px;
   overflow:hidden;
+  margin: 5px;
+  padding: 5px;
+ 
+
 }
 
 .flip > div > div {
@@ -127,7 +131,7 @@
 }
 
 .flip div:first-child {
-  animation: show 5s linear infinite;
+  animation: show 4s linear infinite;
 }
 
 .flip div div {
@@ -149,6 +153,24 @@
   71% {margin-top:0px;}
   99.99% {margin-top:0px;}
   100% {margin-top:-270px;}
+}
+
+.search{
+  
+  font-size: larger;
+  font-family: Segoe UI;
+  
+  text-shadow:0px 0px 2px royalblue;
+  
+}
+
+.searchSubmit{
+  
+  font-family: Segoe UI;
+  font-size: larger;
+ 
+  text-shadow:0px 0px 2px royalblue;
+ 
 }
 
 
