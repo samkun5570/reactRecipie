@@ -2,35 +2,30 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: flex-start;
     align-items: center;
-    height: auto;
-    width: auto;
-    margin: .5rem;
-    min-width: auto;
-    /* margin: 1rem; */
-    padding: .5rem;
+    margin-top: .5rem;
+    padding: .4rem;
     border-radius: 10px;
-    /* border-color: rgb(156, 165, 165); */
     background-color: rgb(96, 128, 128);
     box-shadow: -1rem 0 3rem #000;
-    transition: .1s;
-    /* border-spacing: 10px; */
-    
+    transition: .1s;    
 }
 
 .card-header{
     font-size: larger;
     font-family: cursive;
     font-weight: 600;
-    margin: .5rem;
+    margin-top: .4rem;
+    width: 200px;
+    margin-bottom: .4rem;
     text-transform: capitalize;
     transition: .3s;
 }
+
 .card-header:hover{
     color: black;
     transform: scale(1.1);
-    
     text-shadow: 2px 2px 5px orangered;
     /* background: linear-gradient(90deg,#ff8a00,#e52ee5);
     text-shadow: none;
@@ -40,11 +35,15 @@
 }
 
 .imgClass{
-    max-width: 200px;
+    /* max-width: 200px;
     min-width: 100px;
     max-height: 200px;
-    min-height: 100px;
+    min-height: 100px; */
+    width: 200px;
+    height: 200px;
+    
     display: block;
+    margin-bottom: .1rem;
     /* width: 150px;
     height: 150px; */
     transition: .2s;
@@ -56,7 +55,12 @@
  
 }
 .ingrediants{
-    display: inline;
+    margin: .1rem;
+    display: inline-block;
+ 
+    width: 200px;
+    /* flex-direction: column;
+    justify-content: start; */
     text-align:start;
 }
 .ingrediants:hover{
@@ -101,6 +105,7 @@
     .recepie:hover~.recepie{
         transform: translateX(0px);
     }
+   
    
     /* .recepie:hover~.recepie{
         

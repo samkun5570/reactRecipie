@@ -1,16 +1,6 @@
-
 .App {
   text-align: center;
-  height: auto;
-  width: auto;
-  /* background-color: #282c34; */
-  /* min-height: 80vh;
-  min-width: 80vw; */
   display: flex;
-  padding-top: 1rem;
-  margin-top: 1rem;
-  /* padding: 1rem;
-  margin: 5rem; */
   flex-direction: column;
   position: relative;
   align-items: center;
@@ -18,37 +8,10 @@
   color: white;
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
-
 .content{
-  /* text-align: center;
-  background-color: #282c30; */
   display: flex;
-  
-  /* margin: 3rem; */
-  /* margin-left: 8rem; */
-  padding: 2rem;
-  /* flex-wrap: wrap; */
-  /* align-content: stretch; */
+  padding: 0.5rem;
   overflow-x: scroll;
-  /* padding: 1.5rem;
-  margin: 1.5rem; */
-  /* align-items: center;
-  justify-content: center; */
-  
-  /* position: relative;
-  flex-direction: column;
-  height:350px;
-  width: 400px;
-  min-width: 250px;
-  padding: 1.5rem;
-  
-  font-size: calc(10px + 2vmin);
-  color: white;
-  flex-wrap: wrap; */
 }
 @media only screen and (max-width: 720px) {
   .content {
@@ -73,29 +36,9 @@
 
  .content::-webkit-scrollbar-track{
   background: linear-gradient(90deg,#201c29,#201c29,1px,#17141d 0,#17141d);
-
+  /* background: linear-gradient(90deg,black,black,1px,black 0,black); */
  }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-
-.App-link {
-  color: #61dafb;
-}
 
 /* @keyframes App-logo-spin {
   from {
@@ -108,7 +51,7 @@
 .container {
   color:#999;
   text-transform: uppercase;
-  font-size:36px;
+  font-size:32px;
   font-weight:bold;
   display:block;
 }
@@ -118,8 +61,6 @@
   overflow:hidden;
   margin: 5px;
   padding: 5px;
- 
-
 }
 
 .flip > div > div {
@@ -136,12 +77,15 @@
 
 .flip div div {
   background:#42c58a;
+  border-radius: 5px;
 }
 .flip div:first-child div {
   background:#4ec7f3;
+  border-radius: 5px;
 }
 .flip div:last-child div {
   background:#DC143C;
+  border-radius: 5px;
 }
 
 @keyframes show {
@@ -159,7 +103,6 @@
   
   font-size: larger;
   font-family: Segoe UI;
-  
   text-shadow:0px 0px 2px royalblue;
   
 }
@@ -168,9 +111,47 @@
   
   font-family: Segoe UI;
   font-size: larger;
- 
   text-shadow:0px 0px 2px royalblue;
  
 }
+
+#logo{
+width: 55%;
+}
+
+#logo path:nth-child(0){
+  stroke-dasharray: 531 ;
+  stroke-dashoffset: 531;
+}
+#logo path:nth-child(2){
+  stroke-dasharray: 30px ;
+  stroke-dashoffset: 50px;
+}
+/* #logo path:nth-child(3){
+  
+}
+#logo path:nth-child(4){
+  
+}
+#logo path:nth-child(5){
+  
+}
+#logo path:nth-child(6){
+  
+}
+#logo path:nth-child(7){
+  
+}
+#logo path:nth-child(8){
+  
+}
+#logo path:nth-child(9){
+  
+}
+#logo path:nth-child(1)0{
+  
+} */
+
+
 
 
