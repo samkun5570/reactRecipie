@@ -87,7 +87,7 @@
         width: auto;
         border-radius: 10px;
         background-color: rgb(96, 128, 128);
-        box-shadow: 0px 0px 10px whitesmoke;
+        /* box-shadow: 0px 0px 10px whitesmoke; */
         transition: .1s;
        
         /* border-spacing: 10px; */
