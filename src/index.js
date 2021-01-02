@@ -4,8 +4,9 @@ import './index.css';
 import App from './App';
 // import Loader from "react-promise-tracker";
 import { usePromiseTracker } from "react-promise-tracker";
-import * as serviceWorker from './serviceWorker';
 import Loader from "react-loader-spinner";
+import * as serviceWorker from './serviceWorker';
+
 
 
 const LoadingIndicator = props => {
@@ -20,7 +21,7 @@ const LoadingIndicator = props => {
           display: "flex",      
           justifyContent: "center",
           alignItems: "center"     }}   >    
-       <Loader type="ThreeDots" color="#2BAD60" height="100" width="100" />   
+       <Loader type="BallTriangle" color="#2BAD60" height="100" width="100" />   
        </div>
     );  
    }

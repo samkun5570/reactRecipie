@@ -19,7 +19,23 @@
     align-items: center;
     justify-content:center;
     position: relative;
+    
   }
+  
+.container {
+  color:#999;
+  text-transform: uppercase;
+  font-size:16px;
+  font-weight:bold;
+  margin: .1rem;
+  padding: .1rem;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  position: relative;
+
+}
 }
  .content::-webkit-scrollbar{
    width:10px ;
@@ -47,19 +63,27 @@
     transform: rotate(360deg);
   }
 } */
+
 .container {
   color:#999;
   text-transform: uppercase;
-  font-size:32px;
+  font-size:36px;
   font-weight:bold;
-  display:block;
+  margin: 1rem;
+  padding: 1rem;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  position: relative;
+
 }
 
 .flip {
-  height:50px;
+  height:5rem;
   overflow:hidden;
-  margin: 5px;
-  padding: 5px;
+  margin: .5rem;
+  padding: .5rem;
 }
 
 .flip > div > div {

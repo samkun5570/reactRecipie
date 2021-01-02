@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000000;
+}
+.logo{
+    position: relative;
+    color: rgb(12, 197, 197);
+    font-size: 5rem;
+    text-shadow:0 0 40px orchid,0 0 50px orchid,0 0 70px orchid,0 0 90px orchid;
+    animation: animate 25s linear infinite;
+}
+@keyframes animate{
+    0%
+    {
+        filter:hue-rotate(0deg);
+    }
+    25%
+    {
+        filter:hue-rotate(90deg);
+    }
+    50%
+    {
+        filter:hue-rotate(180deg);
+    }
+    75%
+    {
+        filter:hue-rotate(270deg);
+    }
+    100%
+    {
+        filter:hue-rotate(360deg);
+    }
+}
