@@ -92,7 +92,7 @@ const App = () => {
           type="submit"
           title="click to search for the giver query"
         >
-          Search
+                Search
         </button>
       </form>
       <p>{noData}</p>

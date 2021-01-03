@@ -4,7 +4,9 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 1rem;
+
+    margin-top:1.5rem;
+    padding-bottom: 3rem;
     border-radius: 10px;
     /* background-color:green; */
     background:linear-gradient(to bottom right,rgba(255,255,255,0.2),rgba(255,255,255,0.05));
@@ -58,11 +60,15 @@
 .ingrediants{
     margin: .1rem;
     display: inline-block;
+    
     width: 200px;
     text-align:start;
 }
 .ingrediants:hover{
-   font-size: larger;
+    color: black;
+    transform: scale(1.1);
+    text-shadow: 2px 2px 5px orangered;
+   
 }
 
 .recepie:hover{
@@ -77,12 +83,14 @@
 }
 .recepie:hover .card-header{
     color: black;
-    transform: scale(1.1);
+    font-size:larger;
     text-shadow: 2px 2px 5px orangered;
 }
 
 .recepie:hover .ingrediants{
-    font-size: larger;
+    color: black;
+    font-size:larger;
+    text-shadow: 2px 2px 5px orangered;
 }
 @media only screen and (max-width: 720px) {
  
