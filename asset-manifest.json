@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reactRecipie/static/css/main.16a88e94.chunk.css",
+    "main.css": "/reactRecipie/static/css/main.5614dd42.chunk.css",
     "main.js": "/reactRecipie/static/js/main.1dfc4d05.chunk.js",
     "main.js.map": "/reactRecipie/static/js/main.1dfc4d05.chunk.js.map",
     "runtime-main.js": "/reactRecipie/static/js/runtime-main.8b989185.js",
@@ -8,16 +8,16 @@
     "static/js/2.f860aa34.chunk.js": "/reactRecipie/static/js/2.f860aa34.chunk.js",
     "static/js/2.f860aa34.chunk.js.map": "/reactRecipie/static/js/2.f860aa34.chunk.js.map",
     "index.html": "/reactRecipie/index.html",
-    "precache-manifest.ba756c8482bc5387f717949424fa38f1.js": "/reactRecipie/precache-manifest.ba756c8482bc5387f717949424fa38f1.js",
+    "precache-manifest.e532e0a0227aef62fffb1fbb9e2d038d.js": "/reactRecipie/precache-manifest.e532e0a0227aef62fffb1fbb9e2d038d.js",
     "service-worker.js": "/reactRecipie/service-worker.js",
-    "static/css/main.16a88e94.chunk.css.map": "/reactRecipie/static/css/main.16a88e94.chunk.css.map",
+    "static/css/main.5614dd42.chunk.css.map": "/reactRecipie/static/css/main.5614dd42.chunk.css.map",
     "static/js/2.f860aa34.chunk.js.LICENSE.txt": "/reactRecipie/static/js/2.f860aa34.chunk.js.LICENSE.txt",
     "static/media/title.svg": "/reactRecipie/static/media/title.64fdb5b9.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8b989185.js",
     "static/js/2.f860aa34.chunk.js",
-    "static/css/main.16a88e94.chunk.css",
+    "static/css/main.5614dd42.chunk.css",
     "static/js/main.1dfc4d05.chunk.js"
   ]
 }
