@@ -5,9 +5,11 @@ import "./App.css";
 import { trackPromise ,usePromiseTracker} from "react-promise-tracker";
 import title from "./title.svg";
 import Tilt from "react-parallax-tilt";
+import RecepieDetail from "./RecepieDetail";
 
 const App = () => {
   const [search, setSearch] = useState("");
+  const [selected, setSelected] = useState({});
   const [recepies, setRecepie] = useState([]);
   const [query, setQuery] = useState("desert");
   const [noData, setData] = useState("");
@@ -29,6 +31,12 @@ const App = () => {
   // const ex_request = `https://api.edamam.com/search?q=${query}&app_id=${process.env.REACT_APP_ID}&app_key=${process.env.REACT_APP_API_KEY}`;
   // console.log("url",ex_request);
 
+  const closedetail = ()=>{
+    setSelected({})
+  }
+ 
+  
+
   const getRecipie = async () => {
     setData("");
     try {
@@ -37,6 +45,7 @@ const App = () => {
       );
 
       const recipieData = await response.json();
+console.log("recipieData", recipieData);
       setRecepie(recipieData.hits);
       if (recipieData.hits.length <= 0) {
         setData("Nothing to show");
@@ -90,23 +99,47 @@ const App = () => {
         <button
           className="searchSubmit"
           type="submit"
-          title="click to search for the giver query"
+          title="click to search for the given query"
         >
-                Search
+         <p className="text1">Search</p>
         </button>
       </form>
       <p>{noData}</p>
      {!promiseInProgress ? 
       <section className="content">
-        {recepies.map((recepie) => (
+      {
+        
+          typeof selected.title!="undefined" ?  
+          <RecepieDetail
+              key={selected.label}
+              title={selected.label}
+              calories={selected.calories}
+              img={selected.image}
+              ingredients={selected.ingredients}
+              url={selected.url}
+              totalTime={selected.totalTime}
+              digest={selected.digest}
+              healthLabels={selected.healthLabels}
+              closedetail={closedetail}
+          />
+          :
+        recepies.map((recepie) => (
           <Recepies
             key={recepie.recipe.label}
             title={recepie.recipe.label}
             calories={recepie.recipe.calories}
             img={recepie.recipe.image}
             ingredients={recepie.recipe.ingredients}
+            url={recepie.recipe.url}
+            totalTime={recepie.recipe.totalTime}
+            digest={recepie.recipe.digest}
+            healthLabels={recepie.recipe.healthLabels}
+            onClick={()=>setSelected(recepie.recipe)}
           />
-        ))}
+        ))
+      }
+    
+      
       </section>
       : null }
     </div>

@@ -1,8 +1,8 @@
 import React from 'react';
 import Tilt from 'react-parallax-tilt';
 // import Style from './recepie.css'
-import './recepie.css'
-const recepie = ({title,calories,img,ingredients,url,healthLabels,digest,totalTime}) =>{
+import './RecepieDetail.css'
+const RecepieDetail = ({title,calories,img,ingredients,url,healthLabels,digest,totalTime,closedetail}) =>{
     return(
         <article className="recepie">
             <header className="card-header">{title}</header>
@@ -36,5 +36,4 @@ const recepie = ({title,calories,img,ingredients,url,healthLabels,digest,totalTi
         </article>
     )
 };
-export default recepie;
-
+export default RecepieDetail;
